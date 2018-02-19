@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: boxing25-hasura
+  data: null
+  kubeContext: boxing25
+  name: boxing25
